@@ -21,6 +21,9 @@ public:
     //constructeur sans parametre
     Pierre();
 
+    //constructeur a partir de parametres x, y
+    Pierre(int maxX, int maxY, int x, int y);
+
     //setAttaque affecte l’attaqueavant le combat dans attaque
     void setAttaque();
 

@@ -1,3 +1,5 @@
+//Class Loup
+
 #include "animal.h"
 #include "loup.h"
 #include "attaque.h"
@@ -16,6 +18,14 @@ Loup::Loup(){
     vivant = true; //l'animal est vivant
 }
 
+//constructeur a partir de parametres x, y
+Loup::Loup(int maxX, int maxY, int x, int y){
+    nom = "Loup";
+    this->x = x;
+    this->y = y;
+    vivant = true; //l'animal est vivant
+}
+
 //setAttaque affecte l’attaque avant le combat dans attaque => modifie l'atribut type attaque de type attaque de la classe animal
 void Loup::setAttaque(){
     TypeAttaque = Attaque(rand()%3); //l'attaque du loup est aleatoire entre 0 et 2
@@ -26,6 +36,6 @@ void Loup::setAttaque(){
 void Loup::deplace(int maxX, int maxY){
     x = rand()%maxX; //le loup se deplace aleatoirement sur l'axe x
     y = rand()%maxY; //le loup se deplace aleatoirement sur l'axe y
-    cout << "Le loup se deplace en " << x << ", " << y << endl;
+    //cout << "Le loup se deplace en " << x << ", " << y << endl;
 }
 

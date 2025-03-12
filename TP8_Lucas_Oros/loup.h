@@ -21,6 +21,9 @@ public:
     //constructeur sans parametre
     Loup();
 
+    //constructeur a partir de parametres x, y
+    Loup(int maxX, int maxY, int x, int y); // Constructeur avec positions spécifiques
+
     //constructeur sans parametre
     void setAttaque();
 

@@ -1,3 +1,5 @@
+// Class attaque
+
 #include "attaque.h"
 #include "animal.h"
 #include <iostream>

@@ -1,3 +1,5 @@
+// Class Animal
+
 #include "animal.h"
 #include <iostream>
 #include <ctime>    // Pour srand()
