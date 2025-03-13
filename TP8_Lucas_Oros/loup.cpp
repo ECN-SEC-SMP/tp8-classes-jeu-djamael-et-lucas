@@ -3,10 +3,7 @@
 #include "animal.h"
 #include "loup.h"
 #include "attaque.h"
-#include <iostream>
-#include <ctime>    // Pour srand()
 //les loups : ils se déplacent (au hasard sur n’importe quelle cellule du plateau) et attaquent avec l’une des trois attaques possibles au hasard à chaque tour.
-
 
 using namespace std;
 

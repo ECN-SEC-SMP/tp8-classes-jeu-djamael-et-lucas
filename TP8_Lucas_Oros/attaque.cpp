@@ -11,7 +11,7 @@ Attaque::Attaque(){
     type = rand() % 3; //type d'attaque aleatoire entre 0 et 2
 }
 
-//constructeur permet de creer une att
+//constructeur permet de creer une attaque specifique
 Attaque::Attaque(int a){
     //verifier si le type d'attaque est dans les limites
     if(a < 0 || a > 2){
