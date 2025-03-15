@@ -75,7 +75,7 @@ bool Animal::attaque(Animal &a){
     if(vivant){
         //verifier si l'animal a est vivant
         if(a.getVivant()){
-            //verifier si les animaux sont sur la meme case
+            //verifier si les animaux sont sur la meme case 
             if(x == a.getX() && y == a.getY()){
                 cout << "Les animaux sont sur la meme case et attaquent" << endl; 
                 if(TypeAttaque.resoudreAttaque(a.TypeAttaque) == true){ //si l'attaque courante gagne
