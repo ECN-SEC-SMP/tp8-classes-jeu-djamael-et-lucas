@@ -59,6 +59,11 @@ bool Animal::getVivant() const{
     return vivant;
 }
 
+// methode qui permet de retourner le type
+Attaque Animal::getTypeAttaque() const{
+    return TypeAttaque;
+}
+
 //mutateurs vivant
 void Animal::setVivant(bool v){
     vivant = v;
@@ -73,7 +78,6 @@ bool Animal::attaque(Animal &a){
             //verifier si les animaux sont sur la meme case
             if(x == a.getX() && y == a.getY()){
                 cout << "Les animaux sont sur la meme case et attaquent" << endl;
-                //verifier si les animaux ont la meme attaque : Un match nul est réglé par l’utilisation du générateur aléatoire (A FAIRE)
                 if(TypeAttaque.resoudreAttaque(a.TypeAttaque) == true){ //si l'attaque courante gagne
                     cout << a.getNom() << " a perdu le combat et meurt." << endl;
                     a.setVivant(false);
