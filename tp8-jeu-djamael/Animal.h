@@ -10,8 +10,6 @@ using namespace std;
 #ifndef cpp_animal_h
 #define cpp_animal_h
 
-// V1
-
 class Animal {
 protected:
     string nom;

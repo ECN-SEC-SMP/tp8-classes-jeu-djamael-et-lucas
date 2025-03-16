@@ -1,5 +1,6 @@
-#ifndef CPP_JEU_H
-#define CPP_JEU_H
+
+#ifndef cpp_jeu_h
+#define cpp_jeu_h
 
 #include "Plateau.h"
 #include <vector>

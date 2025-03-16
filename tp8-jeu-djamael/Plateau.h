@@ -4,8 +4,8 @@ Date : 12 mars 2025
 Fichier : Plateau.h
 But : Définir la classe Plateau
 *********************************************/
-#ifndef PLATEAU_H
-#define PLATEAU_H
+#ifndef cpp_plateau_h
+#define cpp_plateau_h
 
 #include "Pierre.h"
 #include "Lion.h"
